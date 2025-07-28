@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#todo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>#todo</h1>
+        <div class="tabs">
+            <button class="tab active" data-tab="all">All</button>
+            <button class="tab" data-tab="active">Active</button>
+            <button class="tab" data-tab="completed">Completed</button>
+        </div>
+
+        <div class="input-group">
+            <input type="text" placeholder="add details" id="taskInput">
+            <button id="addBtn">Add</button>
+        </div>
+        <ul class="task-list" id="taskList">
+            </ul>
+
+            <button class="delete-all-btn" id="deleteAllBtn">🗑 delete all</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
